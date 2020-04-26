@@ -1,0 +1,788 @@
+path {
+  fill: #272527;
+  -webkit-box-shadow: 0px 0px 17px 23px rgba(0, 0, 0, 0.94);
+  -moz-box-shadow: 0px 0px 17px 23px rgba(0, 0, 0, 0.94);
+  box-shadow: 0px 0px 17px 23px rgba(0, 0, 0, 0.94);
+}
+
+#Bg #Filler path {
+  fill: #272527;
+  opacity: .8;
+}
+
+#Bg #Pulse #L1_pulse path:nth-child(1) {
+  opacity: 0;
+  animation: pulse infinite;
+  animation-duration: 4s;
+  animation-delay: 2.5s;
+}
+#Bg #Pulse #L1_pulse path:nth-child(2) {
+  opacity: 0;
+  animation: pulse infinite;
+  animation-duration: 4s;
+  animation-delay: 3s;
+}
+#Bg #Pulse #L1_pulse path:nth-child(3) {
+  opacity: 0;
+  animation: pulse infinite;
+  animation-duration: 4s;
+  animation-delay: 3.5s;
+}
+#Bg #Pulse #L1_pulse path:nth-child(4) {
+  opacity: 0;
+  animation: pulse infinite;
+  animation-duration: 4s;
+  animation-delay: 4s;
+}
+#Bg #Pulse #L1_pulse path:nth-child(5) {
+  opacity: 0;
+  animation: pulse infinite;
+  animation-duration: 4s;
+  animation-delay: 4.5s;
+}
+#Bg #Pulse #L1_pulse path:nth-child(6) {
+  opacity: 0;
+  animation: pulse infinite;
+  animation-duration: 4s;
+  animation-delay: 5s;
+}
+#Bg #Pulse #L1_pulse path:nth-child(7) {
+  opacity: 0;
+  animation: pulse infinite;
+  animation-duration: 4s;
+  animation-delay: 5.5s;
+}
+#Bg #Pulse #L1_pulse path:nth-child(8) {
+  opacity: 0;
+  animation: pulse infinite;
+  animation-duration: 4s;
+  animation-delay: 6s;
+}
+#Bg #Pulse #L5_pulse path {
+  opacity: 0;
+  animation: pulse_5 alternate infinite;
+  animation-duration: 4s;
+  animation-delay: 10s;
+}
+#Bg #Pulse #L8_pulse path {
+  opacity: 0;
+  animation: pulse_8 alternate infinite;
+  animation-duration: 4s;
+  animation-delay: 10s;
+}
+
+#IN g:nth-child(1):not(#Bg) path {
+  animation: 4s level1 1s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(1):not(#Bg) path:nth-of-type(2) {
+  animation: 1s50ms level1 1s forwards;
+}
+#IN g:nth-child(1):not(#Bg) path:nth-of-type(3) {
+  animation: 1s100ms level1 1s forwards;
+}
+#IN g:nth-child(2):not(#Bg) path {
+  animation: 4s level2 3s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(2):not(#Bg) path:nth-of-type(2) {
+  animation: 3s50ms level2 3s forwards;
+}
+#IN g:nth-child(2):not(#Bg) path:nth-of-type(3) {
+  animation: 3s100ms level2 3s forwards;
+}
+#IN g:nth-child(3):not(#Bg) path {
+  animation: 4s level3 4s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(3):not(#Bg) path:nth-of-type(2) {
+  animation: 4s50ms level3 4s forwards;
+}
+#IN g:nth-child(3):not(#Bg) path:nth-of-type(3) {
+  animation: 4s100ms level3 4s forwards;
+}
+#IN g:nth-child(4):not(#Bg) path {
+  animation: 4s level4 5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(4):not(#Bg) path:nth-of-type(2) {
+  animation: 5s50ms level4 5s forwards;
+}
+#IN g:nth-child(4):not(#Bg) path:nth-of-type(3) {
+  animation: 5s100ms level4 5s forwards;
+}
+#IN g:nth-child(5):not(#Bg) path {
+  animation: 4s level5 6s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(5):not(#Bg) path:nth-of-type(2) {
+  animation: 6s50ms level5 6s forwards;
+}
+#IN g:nth-child(5):not(#Bg) path:nth-of-type(3) {
+  animation: 6s100ms level5 6s forwards;
+}
+#IN g:nth-child(6):not(#Bg) path {
+  animation: 4s level6 7s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(6):not(#Bg) path:nth-of-type(2) {
+  animation: 7s50ms level6 7s forwards;
+}
+#IN g:nth-child(6):not(#Bg) path:nth-of-type(3) {
+  animation: 7s100ms level6 7s forwards;
+}
+#IN g:nth-child(7):not(#Bg) path {
+  animation: 4s level7 8s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(7):not(#Bg) path:nth-of-type(2) {
+  animation: 8s50ms level7 8s forwards;
+}
+#IN g:nth-child(7):not(#Bg) path:nth-of-type(3) {
+  animation: 8s100ms level7 8s forwards;
+}
+#IN g:nth-child(8):not(#Bg) path {
+  animation: 4s level8 9s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(8):not(#Bg) path:nth-of-type(2) {
+  animation: 9s50ms level8 9s forwards;
+}
+#IN g:nth-child(8):not(#Bg) path:nth-of-type(3) {
+  animation: 9s100ms level8 9s forwards;
+}
+#IN g:nth-child(9):not(#Bg) path {
+  animation: 4s level9 9.5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(9):not(#Bg) path:nth-of-type(2) {
+  animation: 9.5s50ms level9 9.5s forwards;
+}
+#IN g:nth-child(9):not(#Bg) path:nth-of-type(3) {
+  animation: 9.5s100ms level9 9.5s forwards;
+}
+#IN g:nth-child(10):not(#Bg) path {
+  animation: 4s level10 10s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#IN g:nth-child(10):not(#Bg) path:nth-of-type(2) {
+  animation: 10s50ms level10 10s forwards;
+}
+#IN g:nth-child(10):not(#Bg) path:nth-of-type(3) {
+  animation: 10s100ms level10 10s forwards;
+}
+
+#NA g:nth-child(1):not(#Bg) path {
+  animation: 4s level1 0.5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(1):not(#Bg) path:nth-of-type(2) {
+  animation: 0.5s50ms level1 0.5s forwards;
+}
+#NA g:nth-child(1):not(#Bg) path:nth-of-type(3) {
+  animation: 0.5s100ms level1 0.5s forwards;
+}
+#NA g:nth-child(2):not(#Bg) path {
+  animation: 4s level2 2s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(2):not(#Bg) path:nth-of-type(2) {
+  animation: 2s50ms level2 2s forwards;
+}
+#NA g:nth-child(2):not(#Bg) path:nth-of-type(3) {
+  animation: 2s100ms level2 2s forwards;
+}
+#NA g:nth-child(3):not(#Bg) path {
+  animation: 4s level3 3s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(3):not(#Bg) path:nth-of-type(2) {
+  animation: 3s50ms level3 3s forwards;
+}
+#NA g:nth-child(3):not(#Bg) path:nth-of-type(3) {
+  animation: 3s100ms level3 3s forwards;
+}
+#NA g:nth-child(4):not(#Bg) path {
+  animation: 4s level4 4s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(4):not(#Bg) path:nth-of-type(2) {
+  animation: 4s50ms level4 4s forwards;
+}
+#NA g:nth-child(4):not(#Bg) path:nth-of-type(3) {
+  animation: 4s100ms level4 4s forwards;
+}
+#NA g:nth-child(5):not(#Bg) path {
+  animation: 4s level5 5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(5):not(#Bg) path:nth-of-type(2) {
+  animation: 5s50ms level5 5s forwards;
+}
+#NA g:nth-child(5):not(#Bg) path:nth-of-type(3) {
+  animation: 5s100ms level5 5s forwards;
+}
+#NA g:nth-child(6):not(#Bg) path {
+  animation: 4s level6 6s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(6):not(#Bg) path:nth-of-type(2) {
+  animation: 6s50ms level6 6s forwards;
+}
+#NA g:nth-child(6):not(#Bg) path:nth-of-type(3) {
+  animation: 6s100ms level6 6s forwards;
+}
+#NA g:nth-child(7):not(#Bg) path {
+  animation: 4s level7 7s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(7):not(#Bg) path:nth-of-type(2) {
+  animation: 7s50ms level7 7s forwards;
+}
+#NA g:nth-child(7):not(#Bg) path:nth-of-type(3) {
+  animation: 7s100ms level7 7s forwards;
+}
+#NA g:nth-child(8):not(#Bg) path {
+  animation: 4s level8 8s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(8):not(#Bg) path:nth-of-type(2) {
+  animation: 8s50ms level8 8s forwards;
+}
+#NA g:nth-child(8):not(#Bg) path:nth-of-type(3) {
+  animation: 8s100ms level8 8s forwards;
+}
+#NA g:nth-child(9):not(#Bg) path {
+  animation: 4s level9 8.5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(9):not(#Bg) path:nth-of-type(2) {
+  animation: 8.5s50ms level9 8.5s forwards;
+}
+#NA g:nth-child(9):not(#Bg) path:nth-of-type(3) {
+  animation: 8.5s100ms level9 8.5s forwards;
+}
+#NA g:nth-child(10):not(#Bg) path {
+  animation: 4s level10 9s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#NA g:nth-child(10):not(#Bg) path:nth-of-type(2) {
+  animation: 9s50ms level10 9s forwards;
+}
+#NA g:nth-child(10):not(#Bg) path:nth-of-type(3) {
+  animation: 9s100ms level10 9s forwards;
+}
+
+#EU g:nth-child(1):not(#Bg) path {
+  animation: 4s level1 0.5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(1):not(#Bg) path:nth-of-type(2) {
+  animation: 0.5s50ms level1 0.5s forwards;
+}
+#EU g:nth-child(1):not(#Bg) path:nth-of-type(3) {
+  animation: 0.5s100ms level1 0.5s forwards;
+}
+#EU g:nth-child(2):not(#Bg) path {
+  animation: 4s level2 2s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(2):not(#Bg) path:nth-of-type(2) {
+  animation: 2s50ms level2 2s forwards;
+}
+#EU g:nth-child(2):not(#Bg) path:nth-of-type(3) {
+  animation: 2s100ms level2 2s forwards;
+}
+#EU g:nth-child(3):not(#Bg) path {
+  animation: 4s level3 3s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(3):not(#Bg) path:nth-of-type(2) {
+  animation: 3s50ms level3 3s forwards;
+}
+#EU g:nth-child(3):not(#Bg) path:nth-of-type(3) {
+  animation: 3s100ms level3 3s forwards;
+}
+#EU g:nth-child(4):not(#Bg) path {
+  animation: 4s level4 4s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(4):not(#Bg) path:nth-of-type(2) {
+  animation: 4s50ms level4 4s forwards;
+}
+#EU g:nth-child(4):not(#Bg) path:nth-of-type(3) {
+  animation: 4s100ms level4 4s forwards;
+}
+#EU g:nth-child(5):not(#Bg) path {
+  animation: 4s level5 5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(5):not(#Bg) path:nth-of-type(2) {
+  animation: 5s50ms level5 5s forwards;
+}
+#EU g:nth-child(5):not(#Bg) path:nth-of-type(3) {
+  animation: 5s100ms level5 5s forwards;
+}
+#EU g:nth-child(6):not(#Bg) path {
+  animation: 4s level6 6s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(6):not(#Bg) path:nth-of-type(2) {
+  animation: 6s50ms level6 6s forwards;
+}
+#EU g:nth-child(6):not(#Bg) path:nth-of-type(3) {
+  animation: 6s100ms level6 6s forwards;
+}
+#EU g:nth-child(7):not(#Bg) path {
+  animation: 4s level7 7s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(7):not(#Bg) path:nth-of-type(2) {
+  animation: 7s50ms level7 7s forwards;
+}
+#EU g:nth-child(7):not(#Bg) path:nth-of-type(3) {
+  animation: 7s100ms level7 7s forwards;
+}
+#EU g:nth-child(8):not(#Bg) path {
+  animation: 4s level8 8s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(8):not(#Bg) path:nth-of-type(2) {
+  animation: 8s50ms level8 8s forwards;
+}
+#EU g:nth-child(8):not(#Bg) path:nth-of-type(3) {
+  animation: 8s100ms level8 8s forwards;
+}
+#EU g:nth-child(9):not(#Bg) path {
+  animation: 4s level9 8.5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(9):not(#Bg) path:nth-of-type(2) {
+  animation: 8.5s50ms level9 8.5s forwards;
+}
+#EU g:nth-child(9):not(#Bg) path:nth-of-type(3) {
+  animation: 8.5s100ms level9 8.5s forwards;
+}
+#EU g:nth-child(10):not(#Bg) path {
+  animation: 4s level10 9s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#EU g:nth-child(10):not(#Bg) path:nth-of-type(2) {
+  animation: 9s50ms level10 9s forwards;
+}
+#EU g:nth-child(10):not(#Bg) path:nth-of-type(3) {
+  animation: 9s100ms level10 9s forwards;
+}
+
+#AF g:nth-child(1):not(#Bg) path {
+  animation: 4s level1 2.5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(1):not(#Bg) path:nth-of-type(2) {
+  animation: 2.5s50ms level1 2.5s forwards;
+}
+#AF g:nth-child(1):not(#Bg) path:nth-of-type(3) {
+  animation: 2.5s100ms level1 2.5s forwards;
+}
+#AF g:nth-child(2):not(#Bg) path {
+  animation: 4s level2 6s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(2):not(#Bg) path:nth-of-type(2) {
+  animation: 6s50ms level2 6s forwards;
+}
+#AF g:nth-child(2):not(#Bg) path:nth-of-type(3) {
+  animation: 6s100ms level2 6s forwards;
+}
+#AF g:nth-child(3):not(#Bg) path {
+  animation: 4s level3 7s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(3):not(#Bg) path:nth-of-type(2) {
+  animation: 7s50ms level3 7s forwards;
+}
+#AF g:nth-child(3):not(#Bg) path:nth-of-type(3) {
+  animation: 7s100ms level3 7s forwards;
+}
+#AF g:nth-child(4):not(#Bg) path {
+  animation: 4s level4 8s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(4):not(#Bg) path:nth-of-type(2) {
+  animation: 8s50ms level4 8s forwards;
+}
+#AF g:nth-child(4):not(#Bg) path:nth-of-type(3) {
+  animation: 8s100ms level4 8s forwards;
+}
+#AF g:nth-child(5):not(#Bg) path {
+  animation: 4s level5 9s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(5):not(#Bg) path:nth-of-type(2) {
+  animation: 9s50ms level5 9s forwards;
+}
+#AF g:nth-child(5):not(#Bg) path:nth-of-type(3) {
+  animation: 9s100ms level5 9s forwards;
+}
+#AF g:nth-child(6):not(#Bg) path {
+  animation: 4s level6 10s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(6):not(#Bg) path:nth-of-type(2) {
+  animation: 10s50ms level6 10s forwards;
+}
+#AF g:nth-child(6):not(#Bg) path:nth-of-type(3) {
+  animation: 10s100ms level6 10s forwards;
+}
+#AF g:nth-child(7):not(#Bg) path {
+  animation: 4s level7 11s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(7):not(#Bg) path:nth-of-type(2) {
+  animation: 11s50ms level7 11s forwards;
+}
+#AF g:nth-child(7):not(#Bg) path:nth-of-type(3) {
+  animation: 11s100ms level7 11s forwards;
+}
+#AF g:nth-child(8):not(#Bg) path {
+  animation: 4s level8 12s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(8):not(#Bg) path:nth-of-type(2) {
+  animation: 12s50ms level8 12s forwards;
+}
+#AF g:nth-child(8):not(#Bg) path:nth-of-type(3) {
+  animation: 12s100ms level8 12s forwards;
+}
+#AF g:nth-child(9):not(#Bg) path {
+  animation: 4s level9 12.5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(9):not(#Bg) path:nth-of-type(2) {
+  animation: 12.5s50ms level9 12.5s forwards;
+}
+#AF g:nth-child(9):not(#Bg) path:nth-of-type(3) {
+  animation: 12.5s100ms level9 12.5s forwards;
+}
+#AF g:nth-child(10):not(#Bg) path {
+  animation: 4s level10 13s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#AF g:nth-child(10):not(#Bg) path:nth-of-type(2) {
+  animation: 13s50ms level10 13s forwards;
+}
+#AF g:nth-child(10):not(#Bg) path:nth-of-type(3) {
+  animation: 13s100ms level10 13s forwards;
+}
+
+#SA g:nth-child(1):not(#Bg) path {
+  animation: 4s level1 1s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(1):not(#Bg) path:nth-of-type(2) {
+  animation: 1s50ms level1 1s forwards;
+}
+#SA g:nth-child(1):not(#Bg) path:nth-of-type(3) {
+  animation: 1s100ms level1 1s forwards;
+}
+#SA g:nth-child(2):not(#Bg) path {
+  animation: 4s level2 3s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(2):not(#Bg) path:nth-of-type(2) {
+  animation: 3s50ms level2 3s forwards;
+}
+#SA g:nth-child(2):not(#Bg) path:nth-of-type(3) {
+  animation: 3s100ms level2 3s forwards;
+}
+#SA g:nth-child(3):not(#Bg) path {
+  animation: 4s level3 4s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(3):not(#Bg) path:nth-of-type(2) {
+  animation: 4s50ms level3 4s forwards;
+}
+#SA g:nth-child(3):not(#Bg) path:nth-of-type(3) {
+  animation: 4s100ms level3 4s forwards;
+}
+#SA g:nth-child(4):not(#Bg) path {
+  animation: 4s level4 5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(4):not(#Bg) path:nth-of-type(2) {
+  animation: 5s50ms level4 5s forwards;
+}
+#SA g:nth-child(4):not(#Bg) path:nth-of-type(3) {
+  animation: 5s100ms level4 5s forwards;
+}
+#SA g:nth-child(5):not(#Bg) path {
+  animation: 4s level5 6s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(5):not(#Bg) path:nth-of-type(2) {
+  animation: 6s50ms level5 6s forwards;
+}
+#SA g:nth-child(5):not(#Bg) path:nth-of-type(3) {
+  animation: 6s100ms level5 6s forwards;
+}
+#SA g:nth-child(6):not(#Bg) path {
+  animation: 4s level6 7s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(6):not(#Bg) path:nth-of-type(2) {
+  animation: 7s50ms level6 7s forwards;
+}
+#SA g:nth-child(6):not(#Bg) path:nth-of-type(3) {
+  animation: 7s100ms level6 7s forwards;
+}
+#SA g:nth-child(7):not(#Bg) path {
+  animation: 4s level7 8s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(7):not(#Bg) path:nth-of-type(2) {
+  animation: 8s50ms level7 8s forwards;
+}
+#SA g:nth-child(7):not(#Bg) path:nth-of-type(3) {
+  animation: 8s100ms level7 8s forwards;
+}
+#SA g:nth-child(8):not(#Bg) path {
+  animation: 4s level8 9s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(8):not(#Bg) path:nth-of-type(2) {
+  animation: 9s50ms level8 9s forwards;
+}
+#SA g:nth-child(8):not(#Bg) path:nth-of-type(3) {
+  animation: 9s100ms level8 9s forwards;
+}
+#SA g:nth-child(9):not(#Bg) path {
+  animation: 4s level9 9.5s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(9):not(#Bg) path:nth-of-type(2) {
+  animation: 9.5s50ms level9 9.5s forwards;
+}
+#SA g:nth-child(9):not(#Bg) path:nth-of-type(3) {
+  animation: 9.5s100ms level9 9.5s forwards;
+}
+#SA g:nth-child(10):not(#Bg) path {
+  animation: 4s level10 10s forwards;
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#SA g:nth-child(10):not(#Bg) path:nth-of-type(2) {
+  animation: 10s50ms level10 10s forwards;
+}
+#SA g:nth-child(10):not(#Bg) path:nth-of-type(3) {
+  animation: 10s100ms level10 10s forwards;
+}
+
+@keyframes level0 {
+  0% {
+    fill: red;
+  }
+  100% {
+    fill: red;
+  }
+}
+@keyframes level1 {
+  0% {
+    fill: #272527;
+  }
+  100% {
+    fill: #95ff00;
+  }
+}
+@keyframes level2 {
+  0% {
+    fill: #272527;
+    stroke-width: 0;
+    stroke: #272527;
+    stroke-opacity: 0;
+  }
+  20% {
+    stroke-width: 2;
+    stroke-opacity: 1;
+  }
+  30% {
+    stroke-width: 1;
+    stroke-opacity: 0;
+  }
+  100% {
+    fill: #79e41a;
+    stroke-width: 1;
+    stroke: #79e41a;
+    stroke-opacity: 0;
+  }
+}
+@keyframes level3 {
+  0% {
+    fill: #272527;
+    stroke-width: 0;
+    stroke: #272527;
+    stroke-opacity: 0;
+  }
+  20% {
+    stroke-width: 2;
+    stroke-opacity: 1;
+  }
+  30% {
+    stroke-width: 1;
+    stroke-opacity: 0;
+  }
+  100% {
+    fill: #79e41a;
+    stroke-width: 1;
+    stroke: #79e41a;
+    stroke-opacity: 0;
+  }
+}
+@keyframes level4 {
+  0% {
+    fill: #272527;
+    stroke-width: 0;
+    stroke: #272527;
+    stroke-opacity: 0;
+  }
+  20% {
+    stroke-width: 2;
+    stroke-opacity: 1;
+  }
+  30% {
+    stroke-width: 1;
+    stroke-opacity: 0;
+  }
+  100% {
+    fill: #62ce6b;
+    stroke-width: 1;
+    stroke: #62ce6b;
+    stroke-opacity: 0;
+  }
+}
+@keyframes level5 {
+  0% {
+    fill: #272527;
+    stroke-width: 0;
+    stroke: #272527;
+    stroke-opacity: 0;
+  }
+  20% {
+    stroke-width: 2;
+    stroke-opacity: 1;
+  }
+  30% {
+    stroke-width: 1;
+    stroke-opacity: 0;
+  }
+  100% {
+    fill: #6ad59f;
+    stroke-width: 1;
+    stroke: #6ad59f;
+    stroke-opacity: 0;
+  }
+}
+@keyframes level6 {
+  0% {
+    fill: #272527;
+    stroke-width: 0;
+    stroke: #272527;
+    stroke-opacity: 0;
+  }
+  20% {
+    stroke-width: 2;
+    stroke-opacity: 1;
+  }
+  30% {
+    stroke-width: 1;
+    stroke-opacity: 0;
+  }
+  100% {
+    fill: #58a67f;
+    stroke-width: 1;
+    stroke: #58a67f;
+    stroke-opacity: 0;
+  }
+}
+@keyframes level7 {
+  0% {
+    fill: #272527;
+    stroke-width: 0;
+    stroke: #272527;
+    stroke-opacity: 0;
+  }
+  20% {
+    stroke-width: 2;
+    stroke-opacity: 1;
+  }
+  30% {
+    stroke-width: 1;
+    stroke-opacity: 0;
+  }
+  100% {
+    fill: #3d604f;
+    stroke-width: 1;
+    stroke: #3d604f;
+    stroke-opacity: 0;
+  }
+}
+@keyframes level8 {
+  0% {
+    fill: #272527;
+    stroke-width: 0;
+    stroke: #272527;
+    stroke-opacity: 0;
+  }
+  20% {
+    stroke-width: 2;
+    stroke-opacity: 1;
+  }
+  30% {
+    stroke-width: 1;
+    stroke-opacity: 0;
+  }
+  100% {
+    fill: #272527;
+    stroke-width: 1;
+    stroke: #272527;
+    stroke-opacity: 0;
+  }
+}
+@keyframes pulse {
+  0% {
+    fill: #95ff00;
+    stroke-width: 0;
+    stroke: #95ff00;
+    opacity: 0.1;
+  }
+  20% {
+    fill: #95ff00;
+    stroke: #95ff00;
+    stroke-width: 10;
+    opacity: 0.6;
+  }
+  40% {
+    fill: #95ff00;
+    stroke: #95ff00;
+    stroke-width: 15;
+    opacity: 0.1;
+  }
+}
+@keyframes pulse_5 {
+  0% {
+    fill: #6ad59f;
+    opacity: .1;
+  }
+  100% {
+    fill: #3d604f;
+    opacity: 1;
+  }
+}
+@keyframes pulse_8 {
+  0% {
+    fill: #272527;
+    opacity: .1;
+  }
+  100% {
+    fill: #58a67f;
+    opacity: 1;
+  }
+}
