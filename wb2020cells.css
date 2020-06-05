@@ -1,1 +1,1 @@
-#workspace_toolbar { color: red !important; }
+#workspace_toolbar + div { color: red !important; }
