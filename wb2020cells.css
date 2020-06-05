@@ -1,2 +1,25 @@
-#workspace_toolbar + div > div:last-child > button:last-child { display:none !important; }
+@import url("https://use.typekit.net/qvi7nyx.css");
+div, span { font-family: "proxima-nova" !important; font-weight:600 !important; }
+#workspace_toolbar + div > div:last-child > button:last-child {
+    display: none !important;
+}
 
+.left-panel, .scrollarea {
+    background-color: #f2f1f2 !important;
+}
+
+.primaryColorDarkerPaper {
+    background-color: #272527 !important;
+}
+.user-display > *, .userActionIcon {
+    color: white !important;
+}
+.workspace-current {
+    border-left-color: #08070a !important;
+}
+.workspace-current > * {    
+    color: #08070a !important;
+}
+.desktop-container > div:first-child {
+    background-color: #08070a !important;
+}
