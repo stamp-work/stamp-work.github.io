@@ -1,1 +1,1 @@
-#workspace_toolbar + div:lastchild { color: red !important; }
+#display-toolbar button:lastchild { color: red !important; }
