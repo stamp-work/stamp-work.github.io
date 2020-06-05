@@ -1,1 +1,1 @@
-#workspace_toolbar + div > div:last-child { display:none !important; }
+#workspace_toolbar + div  { display:none !important; }
