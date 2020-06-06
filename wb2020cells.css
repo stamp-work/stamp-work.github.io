@@ -3,11 +3,10 @@ div, span { font-family: "proxima-nova" !important; font-weight:600 !important; 
 #workspace_toolbar + div > div:last-child > button:last-child {
     display: none !important;
 }
-
+/*
 .left-panel, .scrollarea {
     background-color: #f2f1f2 !important;
 }
-
 .primaryColorDarkerPaper {
     background-color: #272527 !important;
 }
@@ -22,7 +21,7 @@ div, span { font-family: "proxima-nova" !important; font-weight:600 !important; 
 }
 .desktop-container > div:first-child {
     background-color: #08070a !important;
-}
+}*/
 .material-list .material-list-entry > * {
     cursor: hand;
 }
