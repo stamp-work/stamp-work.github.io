@@ -11,7 +11,7 @@ div, span { font-family: "proxima-nova" !important; font-weight:600 !important; 
 .primaryColorDarkerPaper {
     background-color: #272527 !important;
 }
-.user-display > *, .userActionIcon {
+.user-display > *, .userActionIcon, .drawer-button {
     color: white !important;
 }
 .workspace-current {
@@ -23,3 +23,27 @@ div, span { font-family: "proxima-nova" !important; font-weight:600 !important; 
 .desktop-container > div:first-child {
     background-color: #08070a !important;
 }
+.material-list .material-list-entry > * {
+    cursor: hand;
+}
+.material-list .material-list-entry.selected {
+    background-color: white !important;
+}
+.material-list .material-list-entry.selected > * {
+    color: #08070a !important;
+}
+.material-list .material-list-entry.selected .material-list-text .material-list-line-2 > span,
+.material-list .material-list-entry.selected .material-list-text .material-list-line-1 > span {
+    color: rgba(8,7,10,0.8) !important;
+}
+.material-list .material-list-entry.selected .material-list-text .material-list-line-1 > span:first-child {
+    color: #86c232 !important;
+}
+[data-reactroot] button {
+    background-color: black !important;
+}
+.scrollarea button {
+    background-color: transparent !important;
+}
+
+
