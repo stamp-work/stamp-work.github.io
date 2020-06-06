@@ -39,11 +39,3 @@ div, span { font-family: "proxima-nova" !important; font-weight:600 !important; 
 .material-list .material-list-entry.selected .material-list-text .material-list-line-1 > span:first-child {
     color: #86c232 !important;
 }
-[data-reactroot] button {
-    background-color: black !important;
-}
-.scrollarea button {
-    background-color: transparent !important;
-}
-
-
