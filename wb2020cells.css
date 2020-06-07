@@ -3,6 +3,9 @@ div, span { font-family: "proxima-nova" !important; font-weight:600 !important; 
 #workspace_toolbar + div > div:last-child > button:last-child {
     display: none !important;
 }
+.home-top-logo {
+    height: 50px;
+}
 .left-panel > div:first-child {
     background-color: #08070a !important;
 } 
