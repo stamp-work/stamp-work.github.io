@@ -34,6 +34,7 @@ div, span { font-family: "proxima-nova" !important; font-weight:600 !important; 
 .material-list .material-list-entry.selected .material-list-text .material-list-line-1 > span {
     color: rgba(8,7,10,0.8) !important;
 }
+.material-list .material-list-entry.selected .material-list-text .material-list-line-1,
 .material-list .material-list-entry.selected .material-list-text .material-list-line-1 > span:first-child {
     color: #86c232 !important;
 }
