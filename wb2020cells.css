@@ -3,27 +3,27 @@ div, span { font-family: "proxima-nova" !important; font-weight:600 !important; 
 #workspace_toolbar + div > div:last-child > button:last-child {
     display: none !important;
 }
-/*
-.left-panel, .scrollarea {
-    background-color: #f2f1f2 !important;
+.left-panel > div:first-child {
+    background-color: #08070a !important;
+} 
+.left-panel, .scrollarea, .mimefont-container {
+    background-color: #f2f1f2 !important; 
 }
-.primaryColorDarkerPaper {
-    background-color: #272527 !important;
+.mimefont-container > * {
+    color: #272527 !important;
 }
 .user-display > *, .userActionIcon, .drawer-button {
     color: white !important;
 }
+
 .workspace-current {
     border-left-color: #08070a !important;
 }
 .workspace-current > * {    
     color: #08070a !important;
 }
-.desktop-container > div:first-child {
-    background-color: #08070a !important;
-}*/
 .material-list .material-list-entry > * {
-    cursor: hand;
+    cursor: pointer;
 }
 .material-list .material-list-entry.selected {
     background-color: white !important;
@@ -38,3 +38,4 @@ div, span { font-family: "proxima-nova" !important; font-weight:600 !important; 
 .material-list .material-list-entry.selected .material-list-text .material-list-line-1 > span:first-child {
     color: #86c232 !important;
 }
+
