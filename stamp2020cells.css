@@ -1,0 +1,44 @@
+@import url("https://use.typekit.net/vmw8daj.css");
+div, span { font-family: "semplicitapro" !important; font-weight:400 !important; }
+#workspace_toolbar + div > div:last-child > button:last-child {
+    display: none !important;
+}
+.home-top-logo {
+    height: 50px !important;
+}
+.left-panel > div:first-child {
+    background-color: #08070a !important;
+} 
+.left-panel, .scrollarea, .mimefont-container {
+    background-color: #f2f1f2 !important; 
+}
+.mimefont-container > * {
+    color: #272527 !important;
+}
+.user-display > *, .userActionIcon, .drawer-button {
+    color: white !important;
+}
+.workspace-current {
+    border-left-color: #08070a !important;
+}
+.workspace-current > * {    
+    color: #08070a !important;
+}
+.material-list .material-list-entry > * {
+    cursor: pointer;
+}
+.material-list .material-list-entry.selected {
+    background-color: white !important;
+}
+.material-list .material-list-entry.selected > * {
+    color: #08070a !important;
+}
+.material-list .material-list-entry.selected .material-list-text .material-list-line-2 > span,
+.material-list .material-list-entry.selected .material-list-text .material-list-line-1 > span {
+    color: rgba(8,7,10,0.8) !important;
+}
+.material-list .material-list-entry.selected .material-list-text .material-list-line-1,
+.material-list .material-list-entry.selected .material-list-text .material-list-line-1 > span:first-child {
+    color: #86c232 !important;
+}
+
