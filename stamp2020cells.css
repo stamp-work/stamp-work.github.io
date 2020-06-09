@@ -6,11 +6,11 @@ div, span { font-family: "semplicitapro" !important; font-weight:400 !important;
 /*
 .home-top-logo {
     height: 50px !important;
-}*/
+}
 .left-panel > div:first-child {
     background-color: #223457 !important;
 }
-.user-display > *, .userActionIcon, .drawer-button {
+.user-display > *, .userActionIcon, */.drawer-button {
     color: white !important;
 }
 .left-panel, .scrollarea, .mimefont-container {
