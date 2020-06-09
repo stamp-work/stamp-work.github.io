@@ -13,6 +13,9 @@ div, span { font-family: "semplicitapro" !important; font-weight:400 !important;
 .user-display > *, .userActionIcon, */.drawer-button {
     color: white !important;
 }
+.user-dashboard-template > .desktop-container > div:first-child {
+    background-color: rgba(255,255,255,0.1) !important;
+}
 .left-panel, .scrollarea, .mimefont-container {
     background-color: white !important; 
 }
