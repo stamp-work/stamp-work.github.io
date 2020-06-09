@@ -10,6 +10,9 @@ div, span { font-family: "semplicitapro" !important; font-weight:400 !important;
 .left-panel > div:first-child {
     background-color: #08070a !important;
 } */
+.user-display > *, .userActionIcon, .drawer-button {
+    color: white !important;
+}
 .left-panel, .scrollarea, .mimefont-container {
     background-color: white !important; 
 }
