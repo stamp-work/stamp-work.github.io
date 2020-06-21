@@ -14,6 +14,7 @@ div, span { font-family: "proxima-nova" !important; font-weight:500 !important; 
 }
 .mimefont-container > * {
     color: #272527 !important;
+    font-family: "Material Design Icons" !important;
 }
 .user-display > *, .userActionIcon, .drawer-button {
     color: white !important;
