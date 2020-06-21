@@ -1,5 +1,8 @@
 @import url("https://use.typekit.net/vmw8daj.css");
-div:not(.tree-icon):not(.mdi-traffic-light), span:not(.tree-icon):not(.mdi-traffic-light) { #workspace_toolbar + div > div:last-child > button:last-child {
+div:not(.tree-icon):not(.mdi-traffic-light), span:not(.tree-icon):not(.mdi-traffic-light) { 
+    font-family: "semplicitapro" !important; font-weight:400 !important; 
+}
+#workspace_toolbar + div > div:last-child > button:last-child {
     display: none !important;
 }
 .home-top-logo {
@@ -37,4 +40,3 @@ div:not(.tree-icon):not(.mdi-traffic-light), span:not(.tree-icon):not(.mdi-traff
 .material-list .material-list-entry.selected .material-list-text .material-list-line-1 > span:first-child {
     color: #f1754c !important;
 }
-
