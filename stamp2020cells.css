@@ -2,7 +2,7 @@
 div:not(.tree-icon):not(.mdi-traffic-light):not(.icomoon-cells):not(.icon-*), span:not(.tree-icon):not(.mdi-traffic-light):not(.icomoon-cells):not(.icon-*) { 
     font-family: "semplicitapro" !important; font-weight:400 !important; 
 }
-#workspace_toolbar + div > div:last-child > button:last-child {
+#workspace_toolbar + div > div:last-child > button:last-child, #info_panel .panelCard:nth-child(2) button:nth-child(2) {
     display: none !important;
 }
 .home-top-logo {
