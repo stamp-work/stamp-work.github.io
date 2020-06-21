@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/qvi7nyx.css");
-div:not(.tree-icon):not(.mdi-traffic-light):not(.icomoon-cells), span:not(.tree-icon):not(.mdi-traffic-light):not(.icomoon-cells) { 
+div:not(.tree-icon):not(.mdi-traffic-light):not(.icomoon-cells):not(.icon-*), span:not(.tree-icon):not(.mdi-traffic-light):not(.icomoon-cells):not(.icon-*) { 
     font-family: "proxima-nova" !important; font-weight:500 !important;
 }
 #workspace_toolbar + div > div:last-child > button:last-child {
