@@ -16,6 +16,9 @@ div, span { font-family: "semplicitapro" !important; font-weight:400 !important;
 .left-panel, .scrollarea, .mimefont-container {
     background-color: white !important; 
 }
+.left-panel > div:first-child {
+    background-color: rgb(27,42,70) !important;
+}
 .mimefont-container > * {
     font-family: "Material Design Icons" !important;
 }
