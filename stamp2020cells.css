@@ -3,10 +3,9 @@ div, span { font-family: "semplicitapro" !important; font-weight:400 !important;
 #workspace_toolbar + div > div:last-child > button:last-child {
     display: none !important;
 }
-/*
 .home-top-logo {
-    height: 50px !important;
-}*/
+    height: 80px !important;
+}
 .user-dashboard-template > .desktop-container > div:first-child {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
