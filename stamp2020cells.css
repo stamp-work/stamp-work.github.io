@@ -7,17 +7,17 @@ div, span { font-family: "semplicitapro" !important; font-weight:400 !important;
 .home-top-logo {
     height: 50px !important;
 }*/
-.drawer-button {
-    color: white !important;
-}
 .user-dashboard-template > .desktop-container > div:first-child {
-    background-color: rgba(255,255,255,0.1) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.left-panel > div:first-child {
+    background-color: rgb(27,42,70) !important;
 }
 .left-panel, .scrollarea, .mimefont-container {
     background-color: white !important; 
 }
-.left-panel > div:first-child {
-    background-color: rgb(27,42,70) !important;
+.user-display > *, .userActionIcon, .drawer-button {
+    color: white !important;
 }
 .mimefont-container > * {
     font-family: "Material Design Icons" !important;
