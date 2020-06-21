@@ -1,5 +1,7 @@
 @import url("https://use.typekit.net/qvi7nyx.css");
-div, span { font-family: "proxima-nova" !important; font-weight:500 !important; }
+div:not(.tree-icon):not(.mdi-traffic-light), span:not(.tree-icon):not(.mdi-traffic-light) { 
+    font-family: "proxima-nova" !important; font-weight:500 !important;
+}
 #workspace_toolbar + div > div:last-child > button:last-child {
     display: none !important;
 }
