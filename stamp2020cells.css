@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/vmw8daj.css");
-div:not(.tree-icon):not(.mdi-traffic-light):not(.icomoon-cells):not(.icon-*), span:not(.tree-icon):not(.mdi-traffic-light):not(.icomoon-cells):not(.icon-*) { 
+div, span:not([class*='icon']):not([class*='traffic-light']), p { 
     font-family: "semplicitapro" !important; font-weight:400 !important; 
 }
 #workspace_toolbar + div > div:last-child > button:last-child, #info_panel .panelCard:nth-child(2) button:nth-child(2) {
